@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(173, 173, 173) ;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: #ffffff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.237);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: rgb(82, 82, 82);
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #403f3f;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#addBtn {
+    background-color: #007bff;
+    color: white;
+}
+
+#addBtn:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 10px;
+    color: green;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.deleteBtn {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.deleteBtn:hover {
+    background-color: #a71d2a;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #676565;
+    color: #111;                 
+    font-size: 18px;             
+    font-weight: 700;            
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+    letter-spacing: 0.41 px; }
